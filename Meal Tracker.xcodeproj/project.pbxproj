@@ -12,6 +12,9 @@
 		92166DBC223D3DBE005E69AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92166DBA223D3DBE005E69AF /* Main.storyboard */; };
 		92166DBE223D3DBF005E69AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92166DBD223D3DBF005E69AF /* Assets.xcassets */; };
 		92166DC1223D3DBF005E69AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92166DBF223D3DBF005E69AF /* LaunchScreen.storyboard */; };
+		92166DCD223D3F1B005E69AF /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92166DCC223D3F1B005E69AF /* FoodTableViewController.swift */; };
+		92166DCF223D4036005E69AF /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92166DCE223D4036005E69AF /* Meal.swift */; };
+		92166DD1223D4042005E69AF /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92166DD0223D4042005E69AF /* Food.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		92166DBD223D3DBF005E69AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92166DC0223D3DBF005E69AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92166DC2223D3DBF005E69AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92166DCC223D3F1B005E69AF /* FoodTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
+		92166DCE223D4036005E69AF /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		92166DD0223D4042005E69AF /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				92166DB6223D3DBE005E69AF /* AppDelegate.swift */,
 				92166DB8223D3DBE005E69AF /* ViewController.swift */,
 				92166DBA223D3DBE005E69AF /* Main.storyboard */,
+				92166DCE223D4036005E69AF /* Meal.swift */,
+				92166DD0223D4042005E69AF /* Food.swift */,
+				92166DCC223D3F1B005E69AF /* FoodTableViewController.swift */,
 				92166DBD223D3DBF005E69AF /* Assets.xcassets */,
 				92166DBF223D3DBF005E69AF /* LaunchScreen.storyboard */,
 				92166DC2223D3DBF005E69AF /* Info.plist */,
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92166DCF223D4036005E69AF /* Meal.swift in Sources */,
 				92166DB9223D3DBE005E69AF /* ViewController.swift in Sources */,
+				92166DD1223D4042005E69AF /* Food.swift in Sources */,
+				92166DCD223D3F1B005E69AF /* FoodTableViewController.swift in Sources */,
 				92166DB7223D3DBE005E69AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
